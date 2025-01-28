@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Otieno</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Add your CSS styles here */
+    .contact-icons {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .contact-icons a {
+        text-decoration: none;
+        color: hsl(0, 25%, 79%);
+        font-size: 24px;
+    }
+    .contact-icons a:hover {
+        color: #007bff;
+    }
+</style>
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/236x/4c/d9/60/4cd9605a22d259f10e955704895b741c.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body  >
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container ">
+      <a href="#home" class="logo">My Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="animate__rotateInUpLeft" >Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <button id="animateButton"class="animate"
+    onclick=""
+    >Welcome!🧑‍💻</button>
+    <div class="container">
+      <h1>Hello, I'm <span>Victor Otieno</span></h1>
+      <p>Web Developer | Designer | Programmer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="./profile.png" alt="Profile Picture">
+        <p>
+          Hi! I'm a passionate web developer with experience in building responsive and user-friendly websites. 
+          I love turning ideas into reality using code. My skills include web development, programming, and design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <marquee behavior="left to right" direction="">
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="./p22.png" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Description of Project 1. <br>
+             This is a responsive sakes website for the Vichtech Sellers <br>
+              <a href="https://otieno272.github.io/VichTech-Selers/">Visit Me😋</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="./project2.png" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Description of Project 2. <br>
+            This was my first portfolio website <br>
+            <a href="https://otieno272.github.io/portfolio/ ">Visit Me 😋</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="./project3.png" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Description of Project 3. <br>
+            A simple Scientific calculator😷 <br>
+            <a href="https://otieno272.github.io/calculator-js/">Visit Me🥵</a>
+
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="./project4.png" alt="Project 3">
+          <h3>Project 4</h3>
+          <p>Description of Project 4. <br>
+            God_Bura Highschool Web page <br>
+            <a href="https://otieno272.github.io/Godbura-School/">Hey💩</a>
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </marquee>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        
+        <input src="mailto:otienov272@gmail.com" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        
+          <button type="submit" width =" 100px"
+          onclick="window.location.href = 'mailto:otienov272@gmail.com';"
+          >Send Message</button>
+        
+       
+      </form>
+    </div>
+  </section>
+  <div class="contact-icons">
+    <!-- WhatsApp Icon -->
+    <a href="https://wa.me/0792975011" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Email Icon -->
+    <a href="mailto:otienov272@gmail.com" title="Send an Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Engineer Victor. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="module" src="node_modules/spin.js/spin.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
