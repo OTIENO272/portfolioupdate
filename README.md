@@ -1,2 +1,2 @@
 My portfolio ,web-based😊✔😊
-Built on Vanila Js,
+Built using Vanila Js,
